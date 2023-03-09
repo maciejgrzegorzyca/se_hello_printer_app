@@ -8,3 +8,7 @@ deps:
 
 run:
     python main.py
+
+
+lint:
+    flake8 hello_world test
